@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Font Example</title>
+
+    <style>
+        @font-face {
+            font-family: 'sdautopilot';
+            src: url('SiteFIles/fonts/sd_auto_pilot.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'pixelarial';
+            src: url('SiteFIles/Fonts/pixel-arial-14.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'pixelarial', Arial, sans-serif;
+            margin: 30px;
+            line-height: 1.6;
+        }
+
+        .alt-font {
+            font-family: 'sdautopilot', Arial, sans-serif;
+        }
+
+        h1 {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stinky Corp</h1>
+    <p>Stinkiest corp of all time</p>
+</body>
+</html>
